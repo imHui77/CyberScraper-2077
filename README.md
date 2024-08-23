@@ -137,7 +137,7 @@ If you want to use Ollama with the Docker setup:
 
 4. Run the Docker container with the host network and set the Ollama URL:
    ```bash
-   docker run --network host -e OLLAMA_BASE_URL=http://<your-host-ip>:11434 -p 8501:8501 cyberscraper-2077
+   docker run --network host -e OLLAMA_BASE_URL=http://192.168.0.139:11434 -p 8501:8501 cyberscraper-2077
    ```
    Replace `<your-host-ip>` with your actual host machine IP address.
 
